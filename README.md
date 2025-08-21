@@ -44,12 +44,6 @@ The result is a **tiered ranking system** that’s more stable than raw projecti
 
 The final CSV (`tiered_projections_2025.csv`) contains:
 
-| player            | position | points | adj_points | tier_score | tier |
-|-------------------|----------|--------|------------|------------|------|
-| Ja'Marr Chase     | WR       | 355    | 358.3      | 358.3      | 1    |
-| Justin Jefferson  | WR       | 317    | 304.6      | 304.6      | 1    |
-| ...               | ...      | ...    | ...        | ...        | ...  |
-
 - **points** → raw projection  
 - **adj_points** → bias-adjusted projection  
 - **tier_score** → fusion index (confidence-adjusted strength)  

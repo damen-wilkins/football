@@ -7,9 +7,7 @@ The result is a **tiered ranking system** that’s more stable than raw projecti
 
 ---
 
-## 📂 Repository Structure
-
-## ⚙️ Workflow
+## Workflow
 
 1. **Projections vs Actuals (2016–2024)**  
    - Notebook: `pro_v_actual.ipynb`  
@@ -40,7 +38,7 @@ The result is a **tiered ranking system** that’s more stable than raw projecti
 
 ---
 
-## 📊 Final Output
+## Final Output
 
 The final CSV (`tiered_projections_2025.csv`) contains:
 
@@ -51,12 +49,22 @@ The final CSV (`tiered_projections_2025.csv`) contains:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repo  
    ```bash
    git clone https://github.com/yourname/fantasy-football-tiers.git
    cd fantasy-football-tiers
 
+2. Install dependencies
+
 pip install pandas matplotlib
 
+
+3. Run notebooks in order:
+   -pro_v_actual.ipynb
+   -reliability_2.ipynb
+   -time_series_2018_2024.ipynb
+   -suped_up_tiers.ipynb
+
+The final tiered_projections_2025.csv will be written to Outputs/.
